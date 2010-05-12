@@ -33,7 +33,7 @@
 
 -(void) updateLabel:(NSNumber *)newValue {
 	
-	NSLog(@"HelloSliderKVO ViewController - updateLabel: %@", newValue);
+	NSLog(@"Hello Slider KVO ViewController - updateLabel: %@", newValue);
 	
 	self.label.text = [NSString stringWithFormat:@"%f", [newValue floatValue]];
 }
